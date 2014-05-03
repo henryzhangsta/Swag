@@ -59,3 +59,38 @@ body
 	width: 30px;
 	background: BLACK;
 }
+
+#infoPanel .infoPanelTab:hover
+{
+	background: GRAY;
+}
+
+.ratingImg
+{
+    height: 150px;
+    vertical-align: middle;
+    padding-left: 4em;
+}
+
+#rating
+{
+    display: inline-block;
+    margin-left: 2.5em;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+#rating.high
+{
+    color: green;
+}
+
+#rating.medium
+{
+    color: #CF8134;
+}
+
+#rating.low
+{
+    color: maroon;
+}

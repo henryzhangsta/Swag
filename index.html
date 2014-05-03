@@ -106,16 +106,31 @@
 		<section id="infoPanel" class="hidden">
 			<div class="infoPanelTab"></div>
 			<div class="infoPanelContent">
+                <div class="row">
+                    <div class="small-12 columns">
+                        <h2 class="centered">Home Rating</h2>
+                    </div>
+                </div>
 				<div class="row">
+                    <div class="small-12 columns">
+                        <img class="ratingImg" id="imgFace" src="" />
+                        <h1 class="ratingLabel" id="rating"></h1>
+                    </div>
+				</div>
+				<div class="row">
+                    <h1>Bests</h1>
 					<div class="small-12 columns">
+                        <table id="bests">
+                            
+                        </table>
 					</div>
 				</div>
 				<div class="row">
+                    <h1>Cons</h1>
 					<div class="small-12 columns">
-					</div>
-				</div>
-				<div class="row">
-					<div class="small-12 columns">
+                        <table>
+                            
+                        </table>
 					</div>
 				</div>
 			</div>
@@ -124,6 +139,7 @@
 		<script type="text/javascript" src="/js/foundation.min.js"></script>
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuHwgcj94eIlfbPCt64zgzIrLswQgP4qM&sensor=false&libraries=places"></script>
 		<script type="text/javascript" src="/js/maps.js"></script>
+        <script type="text/javascript" src="/js/ratingFunctions.js"></script>
 		<script type="text/javascript" src="/js/index.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
