@@ -1,0 +1,61 @@
+body
+{
+	overflow: hidden;
+}
+
+#addressForm
+{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 500px;
+	max-height: 800px;
+	background: rgba(255, 255, 255, 0.5);
+	z-index: 1;
+}
+
+#addressForm input
+{
+	background: rgba(255, 255, 255, 0.5);
+}
+
+#addressForm legend
+{
+	background: transparent;
+}
+
+#infoPanel
+{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 35rem;
+	max-width: 800px;
+	height: 50rem;
+	max-height: 1000px;
+	z-index: 10000;
+	transition: right 1s;
+}
+
+#infoPanel.hidden
+{
+	right: -35rem;
+}
+
+#infoPanel .infoPanelContent
+{
+	width: 100%;
+	height: 100%;
+	border: 1px SOLID BLACK;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+#infoPanel .infoPanelTab
+{
+	position: absolute;
+	right: 35rem;
+	top: 20rem;
+	height: 80px;
+	width: 30px;
+	background: BLACK;
+}

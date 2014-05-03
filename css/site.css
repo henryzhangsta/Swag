@@ -1,0 +1,23 @@
+.container
+{
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.centered
+{
+	margin: 0 auto;
+}
+
+.viewCanvas
+{
+	height: 100%;
+}
+
+.gm-style img { max-width: none; }
+
+.gm-style-iw, .gm-style-iw div {
+	overflow: hidden !important;
+	white-space: nowrap !important;
+}
